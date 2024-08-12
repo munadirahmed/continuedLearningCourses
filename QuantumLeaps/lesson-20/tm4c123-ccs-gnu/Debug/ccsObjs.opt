@@ -1,0 +1,8 @@
+"./bsp.o"
+"./main.o"
+"./ek-tm4c123gxl/gnu/startup_TM4C123GH6PM.o"
+"./ek-tm4c123gxl/system_TM4C123GH6PM.o"
+-Wl,-T"../lesson.ld"
+-Wl,--start-group
+-lc
+-Wl,--end-group
